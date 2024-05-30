@@ -6,7 +6,7 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -17,7 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="13990365-dcd3-48d7-af57-5f13b129cd9d">
-      <console name="@localhost" type="STANDARD" schema="" session="Main" />
+      <console name="@localhost" type="STANDARD" schema="anime" session="Main"><![CDATA[show table status]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -28,6 +28,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="13990365-dcd3-48d7-af57-5f13b129cd9d" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="13990365-dcd3-48d7-af57-5f13b129cd9d" dataset="anime.anime" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -536,5 +539,9 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+    <execution-variable-types />
   </component>
 </project>
