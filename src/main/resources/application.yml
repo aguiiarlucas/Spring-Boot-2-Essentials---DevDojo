@@ -1,13 +1,22 @@
 server:
   error:
-    include-stacktrace: never
+    include-stacktrace: on_param
 
 spring:
-  jpa:
-    hibernate:
-      ddl-auto: update
   datasource:
     url: jdbc:mysql://localhost:3307/anime?createDataBaseIfNotExist=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      globally-quoted-identifiers: true
+      default-schema: anime
+
+
+logging:
+  leveL:
+    org:
+      hibernate:
+        SQL: DEBUG

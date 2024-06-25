@@ -24,7 +24,9 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="13990365-dcd3-48d7-af57-5f13b129cd9d" object-ref="consoles/@localhost" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="13990365-dcd3-48d7-af57-5f13b129cd9d" />
@@ -112,7 +114,7 @@
           <tcp-port-to value="4999" />
           <debugger-type value="ASK" />
         </debugger>
-        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false" hide-audit-columns="false">
+        <object-filters hide-empty-schemas="true" hide-pseudo-columns="true" hide-audit-columns="true">
           <object-filters />
           <object-type-filter use-master-settings="true">
             <object-type name="SCHEMA" enabled="true" />
