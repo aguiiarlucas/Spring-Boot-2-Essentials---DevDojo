@@ -12,12 +12,12 @@
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
-    <show-object-properties value="false" />
+    <show-object-properties value="true" />
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="13990365-dcd3-48d7-af57-5f13b129cd9d">
-      <console name="@localhost" type="STANDARD" schema="anime" session="Main"><![CDATA[show table status]]></console>
+      <console name="@localhost" type="STANDARD" schema="anime" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -146,7 +146,7 @@
     </connections>
     <browser-settings>
       <general>
-        <display-mode value="TABBED" />
+        <display-mode value="SIMPLE" />
         <navigation-history-size value="100" />
         <show-object-details value="false" />
         <enable-sticky-paths value="true" />
@@ -541,7 +541,9 @@
     </general-settings>
   </component>
   <component name="DBNavigator.Project.StatementExecutionManager">
-    <execution-variables />
+    <execution-variables>
+      <file file-url="db://13990365-dcd3-48d7-af57-5f13b129cd9d/consoles/@localhost" />
+    </execution-variables>
     <execution-variable-types />
   </component>
 </project>
