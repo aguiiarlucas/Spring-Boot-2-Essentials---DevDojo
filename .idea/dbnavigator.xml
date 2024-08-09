@@ -24,13 +24,15 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="13990365-dcd3-48d7-af57-5f13b129cd9d" object-ref="consoles/@localhost" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="13990365-dcd3-48d7-af57-5f13b129cd9d" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="13990365-dcd3-48d7-af57-5f13b129cd9d" dataset="anime.anime" active-filter-id="" />
+    <filter-actions connection-id="13990365-dcd3-48d7-af57-5f13b129cd9d" dataset="anime.anime" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />

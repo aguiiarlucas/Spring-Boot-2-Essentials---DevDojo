@@ -47,12 +47,11 @@ public class AnimeService {
         return animeRepository.save ( AnimeMapper.INSTANCE.toAnime ( animePostRequestBody ) );
     }
 
-    public void replace(AnimePutRequestBody animePutRequestBody) {
-        Anime savedAnime = findByIdOrThrowBadRequestException ( animePutRequestBody.getId () );
-        Anime anime = AnimeMapper.INSTANCE.toAnime ( animePutRequestBody );
-        anime.setId ( savedAnime.getId () );
-        animeRepository.save ( anime );
-
+    public void update(AnimePutRequestBody animePutRequestBody) {
+        Anime existingAnime = findByIdOrThrowBadRequestException (animePutRequestBody.getId());
+        Anime updatedAnime = AnimeMapper.INSTANCE.toAnime(animePutRequestBody);
+        updatedAnime.setId(existingAnime.getId());  // Garantindo que o ID não seja alterado
+        animeRepository.save(updatedAnime);
     }
 
     public void delete(long id) {
